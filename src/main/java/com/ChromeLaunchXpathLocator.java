@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class ChromeLaunch5 {
+public class ChromeLaunchXpathLocator {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "D:/work/workspace/Sel/exefiles/chromedriver.exe");
@@ -14,9 +14,9 @@ public class ChromeLaunch5 {
 		cd.navigate().to("http://www.fb.com/"); 	
 		
 		
-		cd.findElement(By.xpath("//form/div/div/input")).sendKeys("kamboj.anjana2017@gmail.com");  
-		cd.findElement(By.xpath("//form/div/div/div/input")).sendKeys("anju.bala");  
-		cd.findElement(By.xpath("//form/div[2]/button")).click();  
+		cd.findElement(By.xpath("//*[@id='email']")).sendKeys("kamboj.anjana2017@gmail.com");  
+		cd.findElement(By.xpath("//*[@id='pass']")).sendKeys("anju.bala");  
+		cd.findElement(By.cssSelector("button[value='1']")).click();  
 
 		
 	}
