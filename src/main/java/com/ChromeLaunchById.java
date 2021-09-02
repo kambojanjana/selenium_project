@@ -9,7 +9,8 @@ public class ChromeLaunchById {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "D:/work/workspace/Sel/exefiles/chromedriver.exe");
 		WebDriver cd= new ChromeDriver();
-		cd.navigate().to("http://www.fb.com/");  
+		cd.navigate().to("http://www.fb.com/"); 
+		//cd.navigate().to("http://www.fb.com/"); 
 		
 
 		cd.findElement(By.id("email")).sendKeys("kamboj.anjana2017@gmail.com");
