@@ -15,7 +15,7 @@ public class ChromeLaunchXpath {
 		
 		
 		cd.findElement(By.xpath("//form/div/div/input")).sendKeys("kamboj.anjana2017@gmail.com");  
-		cd.findElement(By.xpath("//form/div/div/div/input")).sendKeys("anju.balaq");  
+		cd.findElement(By.xpath("//form/div/div/div/input")).sendKeys("anj");  
 		cd.findElement(By.xpath("//form/div[2]/button")).click();  
 
 		

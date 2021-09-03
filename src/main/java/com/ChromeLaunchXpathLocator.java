@@ -15,7 +15,7 @@ public class ChromeLaunchXpathLocator {
 		
 		
 		cd.findElement(By.xpath("//*[@id='email']")).sendKeys("kamboj.anjana2017@gmail.com");  
-		cd.findElement(By.xpath("//*[@id='pass']")).sendKeys("anju.bala");  
+		cd.findElement(By.xpath("//*[@id='pass']")).sendKeys("a");  
 		cd.findElement(By.cssSelector("button[value='1']")).click();  
 
 		
