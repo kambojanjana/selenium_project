@@ -14,7 +14,7 @@ public class ChromeLaunchCssSelector {
 		cd.navigate().to("http://www.fb.com/"); 	
 		
 		cd.findElement(By.cssSelector("input#email")).sendKeys("rakeshkamboj26@gmail.com");  
-		cd.findElement(By.cssSelector("input[data-testid='royal_pass']")).sendKeys("8130011746rA!");  
+		cd.findElement(By.cssSelector("input[data-testid='royal_pass']")).sendKeys("!");  
 		cd.findElement(By.cssSelector("button[value='1']")).click();  
 
 		
